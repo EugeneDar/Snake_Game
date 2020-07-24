@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Canvas fx:id="canvas" height="600.0" layoutX="100.0" width="600.0" />
+      <Text fx:id="score" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score : 0" wrappingWidth="85.6708984375" />
+      <Button fx:id="button" layoutX="14.0" layoutY="43.0" mnemonicParsing="false" onAction="#start" prefHeight="21.0" prefWidth="65.0" text="Start" />
+      <Text fx:id="finalText" fill="#b91b1b" layoutX="268.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="302.6708984375">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
